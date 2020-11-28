@@ -1,7 +1,7 @@
 "use strict";
 
 const Controller = require("egg").Controller;
-const config = require("../common/config");
+const config = require("../config/config");
 const crypto = require('crypto');
 class WeChatController extends Controller {
    async auth() {
